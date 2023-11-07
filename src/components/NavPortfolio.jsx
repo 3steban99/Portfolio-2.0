@@ -8,7 +8,7 @@ export const NavPortfolio = () => {
 
     return (
         <div>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary" fixed='top'>
                 <Container fluid className='mx-5 py-3'>
                     <Navbar.Brand href="#home" className='btn btn-primary'>Ver CV</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
