@@ -12,3 +12,8 @@
 .img-perfil{
     border-radius: 50%;
 }
+
+
+.img-logo img{
+    width: 100px;
+}

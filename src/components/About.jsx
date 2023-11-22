@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import fotoPerfil from "../assets/fotoperfil.png"
+import fotoPerfil from "../assets/fotoperfil.webp"
 
 
 export const About = () => {
