@@ -4,8 +4,33 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-dark: #0B0C10;
+    --color-darkblue: #1F2833;
+    --color-whitelight: #C5C6C7;
+    --color-skyblue: #66FCF1;
+    --color-skybluelight: #45A29E;
+}
+
 .container-main{
     min-height: 100vh;
+}
+
+.bg-nav{
+    background-color: var(--color-dark);
+}
+
+.navbar-link a{
+    color: var(--color-whitelight);
+}
+
+.navbar-link a:hover{
+    color: var(--color-skyblue);
+}
+
+.navbar .navbar-brand .btn-cv {
+    background-color: var(--color-skyblue);
+    color: var(--color-dark);
 }
 
 
