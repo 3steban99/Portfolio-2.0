@@ -23,30 +23,30 @@ import imgMySQL from "../assets/skills/mysql.png"
 
 export const Skills = () => {
     return (
-        <Container>
-            <div>
-                <h2 className="text-center py-5">Skills</h2>
-                <div>
-                    <p className="text-center">
-                        Mis lenguajes, frameworks, tecnologias y herramientas:
-                    </p>
-                    <h3 className="text-center">Lenguajes</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center">
+        <div className="container-main-skills">
+            <Container className="skills">
+                <h2 className="text-center pt-5">Skills</h2>
+                <p className="text-center fs-4 py-3">
+                    Mis lenguajes, frameworks, tecnologias y herramientas:
+                </p>
+                <div className="bg-light skills-container">
+                    <h3 className="text-center pt-5">Lenguajes</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
                         <img src={imgHTML} alt="logo de html" />
                         <img src={imgCss} alt="logo de css" />
                         <img src={imgJs} alt="logo de javasript" />
                         <img src={imgCsharp} alt="logo de c#" />
                     </div>
 
-                    <h3 className="text-center">Frameworks y Metodologias</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center">
+                    <h3 className="text-center pt-5">Frameworks y Metodologias</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
                         <img src={imgReact} alt="logo de react" />
                         <img src={imgBootstrap} alt="logo de bootstrap" />
                         <img src={imgExpress} alt="logo de express" />
                     </div>
 
-                    <h3 className="text-center">Tecnologias y Herramientas</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center">
+                    <h3 className="text-center pt-5">Tecnologias y Herramientas</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
                         <img src={imgGithub} alt="logo de github" />
                         <img src={imgGit} alt="logo de git" />
                         <img src={imgNode} alt="logo de node" />
@@ -55,19 +55,19 @@ export const Skills = () => {
                         <img src={imgFirebase} alt="logo de firebase" />
                     </div>
 
-                    <h3 className="text-center">Bases de Datos</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center">
+                    <h3 className="text-center pt-5">Bases de Datos</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
                         <img src={imgSQL} alt="logo de base de datos SQL" />
                         <img src={imgMongoDB} alt="logo de mongo DB" />
                         <img src={imgMySQL} alt="logo de MySQL" />
                     </div>
 
                     <h3 className="text-center">Proximamente</h3>
-                    <div>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
 
                     </div>
                 </div>
-            </div>
-        </Container>
+            </Container>
+        </div>
     )
 }

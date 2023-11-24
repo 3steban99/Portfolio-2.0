@@ -7,9 +7,9 @@ import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export const Contacto = () => {
     return (
-        <Container>
-            <div>
-                <h2 className="text-center">Contacto</h2>
+        <div className="container-main-contact">
+            <Container className="contact">
+                <h2 className="text-center py-5">Contacto</h2>
                 <div className="shadow w-50 mx-auto py-3">
                     <div className="d-flex justify-content-center">
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -35,7 +35,7 @@ export const Contacto = () => {
                         </a>
                     </div>
                 </div>
-            </div>
-        </Container>
+            </Container>
+        </div>
     )
 }

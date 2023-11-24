@@ -12,10 +12,7 @@
     --color-skybluelight: #45A29E;
 }
 
-.container-main{
-    min-height: 100vh;
-}
-
+/* NAVBAR */
 .bg-nav{
     background-color: var(--color-dark);
 }
@@ -33,12 +30,113 @@
     color: var(--color-dark);
 }
 
+/* HOME */
+.container-main-home{
+    min-height: 100vh;
+    background-color: var(--color-darkblue);
+}
+
+.home-h1{
+    color: var(--color-skyblue);
+}
+
+.home-icon{
+    color: var(--color-skyblue);
+    cursor: pointer;
+}
+
+
+/* ABOUT ME */
+
+.container-main-about{
+    background-color: var(--color-dark);
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+.about h2,
+.about h3{
+    color: var(--color-skybluelight);
+}
+
+.about p{
+    color: var(--color-whitelight);
+}
 
 .img-perfil{
     border-radius: 50%;
 }
 
 
+/*PROJECTS*/
+
+.container-main-projects{
+    background-color: var(--color-darkblue);
+    padding: 60px 0;
+}
+
+.projects-h2{
+    color: var(--color-skybluelight);
+}
+
+
+/*SKILLS*/
+
+.container-main-skills{
+    background-color: var(--color-dark);
+    padding: 60px 0;
+}
+
+.skills h2,
+.skills p{
+    color: var(--color-skybluelight);
+}
+
+.skills h3{
+    color: var(--color-dark);
+}
+
+.skills-container{
+    border-radius: 50px;
+    border: 10px solid var(--color-skyblue);
+}
+
+
 .img-logo img{
     width: 100px;
+}
+
+
+
+/*CONTACT*/
+
+.container-main-contact{
+    background-color: var(--color-darkblue);
+    padding: 60px 0;
+}
+
+.contact{
+    min-height: 50vh;
+}
+
+.contact h2,
+.contact p{
+    color: var(--color-skybluelight);
+}
+
+
+
+/*FOOTER*/
+
+.container-footer{
+    color: var(--color-whitelight);
+    padding: 30px;
+}
+
+.bg-footer{
+    background-color: var(--color-dark);
+}
+
+.icon-footer{
+    font-size: 40px;
 }

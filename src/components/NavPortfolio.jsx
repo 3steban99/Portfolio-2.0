@@ -9,7 +9,7 @@ export const NavPortfolio = () => {
     return (
         <div>
             <Navbar expand="lg" className="bg-nav" fixed='top'>
-                <Container fluid className='mx-5 py-3'>
+                <Container fluid className='py-3'>
                     <Navbar.Brand href="#home">
                         <button className='btn btn-cv'>Ver CV</button>
                     </Navbar.Brand>

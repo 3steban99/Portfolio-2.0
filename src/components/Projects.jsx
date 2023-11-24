@@ -28,17 +28,17 @@ export const Projects = () => {
     };
 
     return (
-        <Container>
-            <div>
-                <h2 className="text-center py-5">Proyectos</h2>
-                <Row xs={1} md={2} className="g-4">
+        <div className="container-main-projects">
+            <Container>
+                <h2 className="text-center py-5 projects-h2">Proyectos</h2>
+                <Row xs={1} md={2} className="">
                     {projects.map((project) => (
-                        <Col md={6} key={project.id}>
+                        <Col md={5} key={project.id} className="mx-auto">
                             <div onClick={() => handleOpenModal(project)}>
                                 <Card>
-                                    <CardImg src={project.image} />
+                                    <CardImg className="img-fluid" src={project.image} />
                                     <CardBody>
-                                        <CardTitle className="text-center fs-3">
+                                        <CardTitle className="text-center fs-3 py-4">
                                             {project.title}
                                         </CardTitle>
                                     </CardBody>
@@ -47,7 +47,7 @@ export const Projects = () => {
                         </Col>
                     ))}
                 </Row>
-            </div>
+            </Container>
 
             <Modal show={showModal} onHide={handleCloseModal}>
                 {selectedProject && (
@@ -67,6 +67,6 @@ export const Projects = () => {
                     </>
                 )}
             </Modal>
-        </Container>
+        </div>
     )
 }
