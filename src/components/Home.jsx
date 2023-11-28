@@ -6,8 +6,8 @@ import { Container } from "react-bootstrap"
 export const Home = () => {
     return (
         <Container fluid className="container-main-home d-flex align-items-center">
-            <div className="d-flex">
-                <div className="">
+            <div className="d-flex mx-5">
+                <div>
                     <div className="home-h1">
                         <h1>
                             Hola, <br />
@@ -22,7 +22,7 @@ export const Home = () => {
                         <FontAwesomeIcon icon={faDiscord} className="fs-1 mx-2 py-2 icon-home"/>
                     </div>
                 </div>
-                <div className="">
+                <div>
 
                 </div>
             </div>

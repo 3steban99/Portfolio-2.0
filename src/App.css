@@ -12,13 +12,47 @@
     --color-skybluelight: #45A29E;
 }
 
+.container h2,
+.about h2{
+    font-size: 40px;
+    border-bottom: 5px solid var(--color-skybluelight);
+    max-width: max-content;
+    margin: 2rem auto 6rem auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container h2,
+    .about h2{
+    font-size: 32px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
 /* NAVBAR */
 .bg-nav{
     background-color: var(--color-dark);
 }
 
+.custom-toggle{
+    color: var(--color-skyblue);
+}
+
+.navbar-toggler{
+    color: var(--color-skyblue) !important;
+    border: 2px solid var(--color-skyblue) !important;
+}
+
+
 .navbar-link a{
     color: var(--color-whitelight);
+    font-size: 20px;
 }
 
 .navbar-link a:hover{
@@ -28,7 +62,15 @@
 .navbar .navbar-brand .btn-cv {
     background-color: var(--color-skyblue);
     color: var(--color-dark);
+    font-size: 23px;
 }
+
+.navbar .navbar-brand .btn-cv:hover {
+    background-color: var(--color-skybluelight);
+}
+
+
+
 
 /* HOME */
 .container-main-home{
@@ -65,6 +107,11 @@
 
 .img-perfil{
     border-radius: 50%;
+}
+
+.about-border{
+    border: 5px solid var(--color-skyblue);
+    border-radius: 10px;
 }
 
 
@@ -115,6 +162,18 @@
     padding: 60px 0;
 }
 
+.bg-contact{
+    background-color: var(--color-dark);
+    border-radius: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-contact{
+        width: 75%;
+    }
+}
+
 .contact{
     min-height: 50vh;
 }
@@ -124,6 +183,17 @@
     color: var(--color-skybluelight);
 }
 
+.contact-icon{
+    color: var(--color-skybluelight);
+}
+
+.contact-icon-net{
+    color: var(--color-skybluelight);
+}
+
+.contact-icon-net:hover{
+    color: var(--color-skyblue);
+}
 
 
 /*FOOTER*/
@@ -139,4 +209,9 @@
 
 .icon-footer{
     font-size: 40px;
+    cursor: pointer;
+}
+
+.icon-footer:hover{
+    color: var(--color-skyblue);
 }

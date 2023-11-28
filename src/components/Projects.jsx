@@ -30,10 +30,10 @@ export const Projects = () => {
     return (
         <div className="container-main-projects">
             <Container>
-                <h2 className="text-center py-5 projects-h2">Proyectos</h2>
-                <Row xs={1} md={2} className="">
+                <h2 className="text-center projects-h2">Proyectos</h2>
+                <Row xs={1} md={2} className="mx-3">
                     {projects.map((project) => (
-                        <Col md={5} key={project.id} className="mx-auto">
+                        <Col md={5} key={project.id} className="mx-auto mb-5">
                             <div onClick={() => handleOpenModal(project)}>
                                 <Card>
                                     <CardImg className="img-fluid" src={project.image} />

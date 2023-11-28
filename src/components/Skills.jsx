@@ -25,8 +25,8 @@ export const Skills = () => {
     return (
         <div className="container-main-skills">
             <Container className="skills">
-                <h2 className="text-center pt-5">Skills</h2>
-                <p className="text-center fs-4 py-3">
+                <h2 className="text-center">Skills</h2>
+                <p className="text-center fs-3 pb-3">
                     Mis lenguajes, frameworks, tecnologias y herramientas:
                 </p>
                 <div className="bg-light skills-container">

@@ -29,13 +29,20 @@ const projects = [
     },
     {
         "id": 5,
-        "title": "Calculadora",
+        "title": "Rolling Glass",
         "description": "prueba de description lajksdlakshdlajskhdkajhsdklsdhjbafkndbv jkhfdksaljdf",
         "image": "./src/assets/projects/calculadora.webp",
         "github": ""
     },
     {
         "id": 6,
+        "title": "Calculadora",
+        "description": "prueba de description lajksdlakshdlajskhdkajhsdklsdhjbafkndbv jkhfdksaljdf",
+        "image": "./src/assets/projects/calculadora.webp",
+        "github": ""
+    },
+    {
+        "id": 7,
         "title": "Proyecto de un Parcial",
         "description": "prueba de description lajksdlakshdlajskhdkajhsdklsdhjbafkndbv jkhfdksaljdf",
         "image": "./src/assets/projects/maxikiosco.webp",

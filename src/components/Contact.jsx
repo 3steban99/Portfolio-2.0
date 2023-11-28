@@ -9,29 +9,29 @@ export const Contacto = () => {
     return (
         <div className="container-main-contact">
             <Container className="contact">
-                <h2 className="text-center py-5">Contacto</h2>
-                <div className="shadow w-50 mx-auto py-3">
-                    <div className="d-flex justify-content-center">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        <p>barrionuevo99@outlook.com</p>
+                <h2 className="text-center">Contacto</h2>
+                <div className="mx-auto py-3 bg-contact">
+                    <div className="d-flex justify-content-center align-items-center mb-2">
+                        <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
+                        <p className="mb-0 ms-2">barrionuevo99@outlook.com</p>
                     </div>
-                    <div className="d-flex justify-content-center">
-                        <FontAwesomeIcon icon={faPhone} />
-                        <p>+54 9 381440-7688</p>
+                    <div className="d-flex justify-content-center align-items-center mb-2">
+                        <FontAwesomeIcon icon={faPhone} className="contact-icon"/>
+                        <p className="mb-0 ms-2">+54 9 381440-7688</p>
                     </div>
-                    <div className="d-flex justify-content-center">
-                        <FontAwesomeIcon icon={faLocationDot} />
-                        <p>Yerba Buena - Tucuman, Argentina</p>
+                    <div className="d-flex justify-content-center align-items-center mb-2">
+                        <FontAwesomeIcon icon={faLocationDot} className="contact-icon"/>
+                        <p className="mb-0 ms-2">Yerba Buena - Tucuman, Argentina</p>
                     </div>
                     <div className="d-flex justify-content-center">
                         <a href="#">
-                            <FontAwesomeIcon icon={faLinkedin} className="fs-1 mx-2 py-2 icon-home" />
+                            <FontAwesomeIcon icon={faLinkedin} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
                         <a href="#">
-                            <FontAwesomeIcon icon={faInstagram} className="fs-1 mx-2 py-2 icon-home" />
+                            <FontAwesomeIcon icon={faInstagram} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
                         <a href="#">
-                            <FontAwesomeIcon icon={faDiscord} className="fs-1 mx-2 py-2 icon-home" />
+                            <FontAwesomeIcon icon={faDiscord} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
                     </div>
                 </div>
