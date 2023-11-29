@@ -6,7 +6,7 @@
 
 :root{
     --color-dark: #0B0C10;
-    --color-darkblue: #1F2833;
+    --color-darkblue: #000B1C;
     --color-whitelight: #C5C6C7;
     --color-skyblue: #66FCF1;
     --color-skybluelight: #45A29E;
@@ -59,6 +59,7 @@ p{
     color: var(--color-skyblue);
 }
 
+
 .navbar .navbar-brand .btn-cv {
     background-color: var(--color-skyblue);
     color: var(--color-dark);
@@ -74,9 +75,11 @@ p{
 
 /* HOME */
 .container-main-home{
-    min-height: 100vh;
-    background-color: var(--color-darkblue);
+    height: 100vh;
+    background-image: url("./assets/fondo1.jpg");
+    background-size: cover;
 }
+
 
 .home-h1{
     color: var(--color-skyblue);
@@ -87,6 +90,9 @@ p{
     cursor: pointer;
 }
 
+.home-container-img{
+    width: 32%;
+}
 
 /* ABOUT ME */
 
@@ -126,6 +132,72 @@ p{
     color: var(--color-skybluelight);
 }
 
+.card-custom.card{
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid var(--color-skyblue);
+}
+
+.card-img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-body{
+    background-color: var(--color-whitelight);
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+.custom-modal .modal-content {
+    border: 1px solid var(--color-skyblue);
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+    border: none;
+}
+
+.modal-header{
+    background-color: var(--color-dark);
+    color: var(--color-skyblue);
+}
+
+.modal-header .btn-close{
+    background-color: var(--color-skyblue);
+}
+
+.modal-body{
+    background-color: var(--color-whitelight);
+    color: var(--color-dark);
+}
+
+.modal-content .modal-footer{
+    background-color: var(--color-dark);
+}
+
+.icon-modal{
+    color: var(--color-skyblue);
+    font-size: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.icon-modal:hover{
+    color: var(--color-skybluelight);
+}
+
+.modal-footer .btn-modal{
+    background-color: var(--color-skyblue);
+    color: var(--color-dark);
+    border: none;
+}
+
+.modal-footer .btn-modal:hover{
+    background-color: var(--color-skybluelight);
+    color: var(--color-dark);
+}
 
 /*SKILLS*/
 
@@ -160,17 +232,27 @@ p{
 .container-main-contact{
     background-color: var(--color-darkblue);
     padding: 60px 0;
+    background-image: url("./assets/fondo2.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-contact{
     background-color: var(--color-dark);
     border-radius: 20px;
     width: 50%;
+    border: 2px solid var(--color-skyblue);
 }
 
 @media screen and (max-width: 768px) {
     .bg-contact{
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-contact{
+        width: 95%;
     }
 }
 
@@ -203,11 +285,15 @@ p{
     padding: 30px;
 }
 
+.container-footer a{
+    color: var(--color-whitelight);
+}
+
 .bg-footer{
     background-color: var(--color-dark);
 }
 
-.icon-footer{
+.icon-footer {
     font-size: 40px;
     cursor: pointer;
 }

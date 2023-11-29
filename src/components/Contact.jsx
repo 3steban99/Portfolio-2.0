@@ -7,7 +7,7 @@ import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export const Contacto = () => {
     return (
-        <div className="container-main-contact">
+        <div className="container-main-contact" id="contact">
             <Container className="contact">
                 <h2 className="text-center">Contacto</h2>
                 <div className="mx-auto py-3 bg-contact">

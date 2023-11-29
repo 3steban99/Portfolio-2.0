@@ -4,7 +4,7 @@ import fotoPerfil from "../assets/fotoperfil.webp"
 
 export const About = () => {
     return (
-        <Container fluid className="container-main-about">
+        <Container fluid id="about" className="container-main-about">
             <div className="about">
                 <h2 className="text-center mx-auto">Sobre Mi</h2>
                 <div className="d-flex flex-column flex-xl-row w-75 mx-auto pt-5">

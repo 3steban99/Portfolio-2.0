@@ -23,7 +23,7 @@ import imgMySQL from "../assets/skills/mysql.png"
 
 export const Skills = () => {
     return (
-        <div className="container-main-skills">
+        <div className="container-main-skills" id="skills">
             <Container className="skills">
                 <h2 className="text-center">Skills</h2>
                 <p className="text-center fs-3 pb-3">
@@ -38,7 +38,7 @@ export const Skills = () => {
                         <img src={imgCsharp} alt="logo de c#" />
                     </div>
 
-                    <h3 className="text-center pt-5">Frameworks y Metodologias</h3>
+                    <h3 className="text-center pt-5">Frameworks, Metodologias y Tecnicas</h3>
                     <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
                         <img src={imgReact} alt="logo de react" />
                         <img src={imgBootstrap} alt="logo de bootstrap" />

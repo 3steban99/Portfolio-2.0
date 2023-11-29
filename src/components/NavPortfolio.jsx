@@ -21,10 +21,10 @@ export const NavPortfolio = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto navbar-link">
                             <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Sobre Mi</Nav.Link>
-                            <Nav.Link href="#link">Proyectos</Nav.Link>
-                            <Nav.Link href="#link">Skills</Nav.Link>
-                            <Nav.Link href="#link">Contacto</Nav.Link>
+                            <Nav.Link href="#about">Sobre Mi</Nav.Link>
+                            <Nav.Link href="#projects">Proyectos</Nav.Link>
+                            <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Nav.Link href="#contact">Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
