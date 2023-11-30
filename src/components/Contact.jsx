@@ -25,13 +25,13 @@ export const Contacto = () => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <a href="https://www.linkedin.com/in/esteban-ignacio-barrionuevo/" target="_blank">
-                            <FontAwesomeIcon icon={faLinkedin} className="fs-2 mx-2 py-2 contact-icon-net" />
+                            <FontAwesomeIcon icon={faLinkedin} className="mx-2 py-2 contact-icon-net" />
                         </a>
                         <a href="https://www.instagram.com/3steban.barrionuevo/" target="_blank">
-                            <FontAwesomeIcon icon={faInstagram} className="fs-2 mx-2 py-2 contact-icon-net" />
+                            <FontAwesomeIcon icon={faInstagram} className="mx-2 py-2 contact-icon-net" />
                         </a>
                         <a href="https://discord.com/users/269684052221624320" target="_blank">
-                            <FontAwesomeIcon icon={faDiscord} className="fs-2 mx-2 py-2 contact-icon-net" />
+                            <FontAwesomeIcon icon={faDiscord} className="mx-2 py-2 contact-icon-net" />
                         </a>
                     </div>
                 </div>

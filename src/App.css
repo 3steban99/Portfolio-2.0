@@ -81,8 +81,15 @@ p{
 /* HOME */
 .container-main-home{
     height: 100vh;
-    background-image: url("./assets/fondo1.jpg");
+    background-image: url("./assets/fondo1.webp");
     background-size: cover;
+}
+
+@media screen and (max-width: 1440px) {
+    .container-main-home{
+        background-image: url("./assets/fondo1Mobile.webp");
+        background-size: cover;
+    }
 }
 
 
@@ -93,6 +100,7 @@ p{
 .home-icon{
     color: var(--color-skyblue);
     cursor: pointer;
+    font-size: 28px;
 }
 
 .home-icon:hover{
@@ -102,6 +110,14 @@ p{
 .home-container-img{
     width: 32%;
 }
+
+@media screen and (max-width: 576px) {
+    .home-text h1,
+    .home-icon{
+        font-size: 38px;
+    }
+}
+
 
 /* ABOUT ME */
 
@@ -247,6 +263,11 @@ p{
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 576px){
+    .img-logo img{
+        width: 70px;
+    }
+}
 
 
 /*CONTACT*/
@@ -254,10 +275,19 @@ p{
 .container-main-contact{
     background-color: var(--color-darkblue);
     padding: 60px 0;
-    background-image: url("./assets/fondo2.png");
+    background-image: url("./assets/fondo2.webp");
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 1440px) {
+    .container-main-contact{
+        background-image: url("./assets/fondo2Mobile.webp");
+        background-size: cover;
+    }
+}
+
+
 
 .bg-contact{
     background-color: var(--color-dark);
@@ -269,12 +299,6 @@ p{
 @media screen and (max-width: 768px) {
     .bg-contact{
         width: 75%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .bg-contact{
-        width: 95%;
     }
 }
 
@@ -293,10 +317,20 @@ p{
 
 .contact-icon-net{
     color: var(--color-skybluelight);
+    font-size: 28px;
 }
 
 .contact-icon-net:hover{
     color: var(--color-skyblue);
+}
+
+@media screen and (max-width: 576px) {
+    .bg-contact{
+        width: 95%;
+    }
+    .contact-icon-net{
+        font-size: 36px;
+    }
 }
 
 

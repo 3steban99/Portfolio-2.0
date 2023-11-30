@@ -20,16 +20,16 @@ export const Home = () => {
                         </div>
                         <div>
                             <a href="https://github.com/3steban99" target="_blank">
-                                <FontAwesomeIcon icon={faGithub} className="fs-1 mx-2 py-2 home-icon" />
+                                <FontAwesomeIcon icon={faGithub} className="mx-2 py-2 home-icon" />
                             </a>
                             <a href="https://www.linkedin.com/in/esteban-ignacio-barrionuevo/" target="_blank">
-                                <FontAwesomeIcon icon={faLinkedin} className="fs-1 mx-2 py-2 home-icon" />
+                                <FontAwesomeIcon icon={faLinkedin} className="mx-2 py-2 home-icon" />
                             </a>
                             <a href="https://www.instagram.com/3steban.barrionuevo/" target="_blank">
-                                <FontAwesomeIcon icon={faInstagram} className="fs-1 mx-2 py-2 home-icon" />
+                                <FontAwesomeIcon icon={faInstagram} className="mx-2 py-2 home-icon" />
                             </a>
                             <a href="https://discord.com/users/269684052221624320" target="_blank">
-                                <FontAwesomeIcon icon={faDiscord} className="fs-1 mx-2 py-2 home-icon" />
+                                <FontAwesomeIcon icon={faDiscord} className="mx-2 py-2 home-icon" />
                             </a>
                         </div>
                     </div>
