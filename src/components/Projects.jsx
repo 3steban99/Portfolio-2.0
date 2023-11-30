@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Col, Row, Image, Button, Modal, Card, CardImg, CardBody, CardTitle, Container } from "react-bootstrap";
-import { getProjects } from "../../projects"
+import { getProjects } from "../../public/projects"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -39,7 +39,7 @@ export const Projects = () => {
                         <Col md={5} key={project.id} className="mx-auto mb-5">
                             <div onClick={() => handleOpenModal(project)}>
                                 <Card className="card-custom">
-                                    <CardImg className="img-fluid" src={project.image} />
+                                    <CardImg className="img-fluid" src={project.image} alt={project.title}/>
                                     <CardBody>
                                         <CardTitle className="text-center fs-3 py-4">
                                             {project.title}
