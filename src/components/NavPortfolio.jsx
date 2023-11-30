@@ -13,7 +13,7 @@ export const NavPortfolio = () => {
             <Navbar expand="lg" className="bg-nav" fixed='top'>
                 <Container fluid className='py-3 mx-2 mx-lg-5'>
                     <Navbar.Brand href="#home">
-                        <button className='btn btn-cv'>Ver CV</button>
+                        <a href="https://drive.google.com/file/d/1Zen_uCiCzWU_8eRI94lbqb3dbSHzvEfA/view?usp=drive_link" target="_blank" className='btn btn-cv'>Ver CV</a>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <FontAwesomeIcon icon={faBars} className='custom-toggle fs-1' />

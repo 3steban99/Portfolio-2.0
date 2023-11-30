@@ -60,18 +60,22 @@ export const Projects = () => {
                         </Modal.Header>
                         <Modal.Body>
                             <Image src={selectedProject.image} fluid />
-                            <p>{selectedProject.description}</p>
+                            <p className="pt-4 ">{selectedProject.description}</p>
                         </Modal.Body>
                         <Modal.Footer>
                             <div className="me-auto">
                                 <a href={selectedProject.github} target="_blank">
-                                    <FontAwesomeIcon icon={faGithub} className="icon-modal"/>
+                                    <FontAwesomeIcon icon={faGithub} className="icon-modal" />
                                 </a>
-                                <a href={selectedProject.web} target="_blank">
-                                    <FontAwesomeIcon icon={faGlobe} className="icon-modal"/>
-                                </a>
+                                {selectedProject.web ? ( // Condición para verificar si hay URL de web
+                                    <a href={selectedProject.web} target="_blank">
+                                        <FontAwesomeIcon icon={faGlobe} className="icon-modal" />
+                                    </a>
+                                ) : (
+                                    null
+                                )}
                             </div>
-                            <Button className="btn-modal" onClick={handleCloseModal}>
+                            <Button className="btn-modal fw-bold" onClick={handleCloseModal}>
                                 Close
                             </Button>
                         </Modal.Footer>

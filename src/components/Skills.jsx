@@ -1,24 +1,25 @@
 import { Container } from "react-bootstrap"
-
 import imgHTML from "../assets/skills/html.png"
 import imgCss from "../assets/skills/css.png"
 import imgJs from "../assets/skills/js.png"
 import imgCsharp from "../assets/skills/csharp.png"
-
 import imgReact from "../assets/skills/react.png"
 import imgBootstrap from "../assets/skills/bootstrap.png"
 import imgExpress from "../assets/skills/express.png"
-
+import imgTrello from "../assets/skills/trello.png"
+import imgSEO from "../assets/skills/SEO.png"
+import imgScrum from "../assets/skills/scrum.png"
 import imgGithub from "../assets/skills/github.png"
 import imgGit from "../assets/skills/git.png"
 import imgNode from "../assets/skills/node.png"
 import imgNpm from "../assets/skills/npm.png"
 import imgGenexus from "../assets/skills/genexus-logo.png"
 import imgFirebase from "../assets/skills/firebase.png"
-
 import imgSQL from "../assets/skills/sql.png"
 import imgMongoDB from "../assets/skills/mongodb.png"
 import imgMySQL from "../assets/skills/mysql.png"
+import imgNext from "../assets/skills/next.png"
+import imgTs from "../assets/skills/ts.png"
 
 
 export const Skills = () => {
@@ -43,6 +44,9 @@ export const Skills = () => {
                         <img src={imgReact} alt="logo de react" />
                         <img src={imgBootstrap} alt="logo de bootstrap" />
                         <img src={imgExpress} alt="logo de express" />
+                        <img src={imgTrello} alt="logo de trello" />
+                        <img src={imgSEO} alt="logo de SEO" />
+                        <img src={imgScrum} alt="logo de scrum" />
                     </div>
 
                     <h3 className="text-center pt-5">Tecnologias y Herramientas</h3>
@@ -64,7 +68,8 @@ export const Skills = () => {
 
                     <h3 className="text-center">Proximamente</h3>
                     <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
-
+                        <img src={imgNext} alt="logo de next" />
+                        <img src={imgTs} alt="logo de typeScript" />
                     </div>
                 </div>
             </Container>

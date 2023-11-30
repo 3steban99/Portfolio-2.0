@@ -17,11 +17,11 @@ export const Home = () => {
                             Programador FullStack
                         </h1>
                     </div>
-                    <div className="home-icon">
-                        <FontAwesomeIcon icon={faGithub} className="fs-1 mx-2 py-2 icon-home"/>
-                        <FontAwesomeIcon icon={faLinkedin} className="fs-1 mx-2 py-2 icon-home"/>
-                        <FontAwesomeIcon icon={faInstagram} className="fs-1 mx-2 py-2 icon-home"/>
-                        <FontAwesomeIcon icon={faDiscord} className="fs-1 mx-2 py-2 icon-home"/>
+                    <div>
+                        <FontAwesomeIcon icon={faGithub} className="fs-1 mx-2 py-2 home-icon"/>
+                        <FontAwesomeIcon icon={faLinkedin} className="fs-1 mx-2 py-2 home-icon"/>
+                        <FontAwesomeIcon icon={faInstagram} className="fs-1 mx-2 py-2 home-icon"/>
+                        <FontAwesomeIcon icon={faDiscord} className="fs-1 mx-2 py-2 home-icon"/>
                     </div>
                 </div>
                 <div className="home-container-img me-5 d-none d-lg-block">
