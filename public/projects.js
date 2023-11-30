@@ -4,7 +4,7 @@ const projects = [
         "id": 1,
         "title": "Beat Club",
         "description": "Proyecto Real Beat Club Mendoza, es un proyecto desde 0 realizado con un compañero creado con React en el FrontEnd y MySQL con Express para el BackEnd. El proyecto tenia como objetivo mejorar la pagina de beat club que tenian en la cual estaba mal hecha, por lo que decidimos realizarla desde 0 con React. La pagina es usada principalmente como menu para los clientes a traves de un QR y para que el dueño tambien pueda modificar el menu. Tambien cuenta con eventos.",
-        "image": "../src/assets/projects/beatclub.webp",
+        "image": "https://i.ibb.co/Bc4r0Fz/beatclub.webp",
         "github": "https://github.com/AndyCavedal/beat-club",
         "web" : "https://beatclub.com.ar/"
     },
