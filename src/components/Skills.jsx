@@ -24,23 +24,23 @@ import imgTs from "../assets/skills/ts.png"
 
 export const Skills = () => {
     return (
-        <div className="container-main-skills" id="skills">
+        <section className="container-main-skills" id="skills">
             <Container className="skills">
-                <h2 className="text-center">Skills</h2>
-                <p className="text-center fs-3 pb-3">
+                <h2 className="text-center fw-bold">Skills</h2>
+                <p className="text-center fs-3 pb-3 fw-bold">
                     Mis lenguajes, frameworks, tecnologias y herramientas:
                 </p>
                 <div className="bg-light skills-container">
-                    <h3 className="text-center pt-5">Lenguajes</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
+                    <h3 className="text-center pt-5 fw-bold">Lenguajes</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgHTML} alt="logo de html" />
                         <img src={imgCss} alt="logo de css" />
                         <img src={imgJs} alt="logo de javasript" />
                         <img src={imgCsharp} alt="logo de c#" />
                     </div>
 
-                    <h3 className="text-center pt-5">Frameworks, Metodologias y Tecnicas</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
+                    <h3 className="text-center pt-5 fw-bold">Frameworks, Metodologias y Tecnicas</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgReact} alt="logo de react" />
                         <img src={imgBootstrap} alt="logo de bootstrap" />
                         <img src={imgExpress} alt="logo de express" />
@@ -49,8 +49,8 @@ export const Skills = () => {
                         <img src={imgScrum} alt="logo de scrum" />
                     </div>
 
-                    <h3 className="text-center pt-5">Tecnologias y Herramientas</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
+                    <h3 className="text-center pt-5 fw-bold">Tecnologias y Herramientas</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgGithub} alt="logo de github" />
                         <img src={imgGit} alt="logo de git" />
                         <img src={imgNode} alt="logo de node" />
@@ -59,20 +59,20 @@ export const Skills = () => {
                         <img src={imgFirebase} alt="logo de firebase" />
                     </div>
 
-                    <h3 className="text-center pt-5">Bases de Datos</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
+                    <h3 className="text-center pt-5 fw-bold">Bases de Datos</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgSQL} alt="logo de base de datos SQL" />
                         <img src={imgMongoDB} alt="logo de mongo DB" />
                         <img src={imgMySQL} alt="logo de MySQL" />
                     </div>
 
-                    <h3 className="text-center">Proximamente</h3>
-                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-5">
+                    <h3 className="text-center fw-bold">Proximamente</h3>
+                    <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgNext} alt="logo de next" />
                         <img src={imgTs} alt="logo de typeScript" />
                     </div>
                 </div>
             </Container>
-        </div>
+        </section>
     )
 }

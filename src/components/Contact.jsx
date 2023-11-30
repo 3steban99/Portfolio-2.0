@@ -7,9 +7,9 @@ import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export const Contacto = () => {
     return (
-        <div className="container-main-contact" id="contact">
+        <section className="container-main-contact" id="contact">
             <Container className="contact">
-                <h2 className="text-center">Contacto</h2>
+                <h2 className="text-center fw-bold">Contacto</h2>
                 <div className="mx-auto py-3 bg-contact">
                     <div className="d-flex justify-content-center align-items-center mb-2">
                         <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
@@ -24,18 +24,18 @@ export const Contacto = () => {
                         <p className="mb-0 ms-2">Yerba Buena - Tucuman, Argentina</p>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/esteban-ignacio-barrionuevo/" target="_blank">
                             <FontAwesomeIcon icon={faLinkedin} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/3steban.barrionuevo/" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
-                        <a href="#">
+                        <a href="https://discord.com/users/269684052221624320" target="_blank">
                             <FontAwesomeIcon icon={faDiscord} className="fs-2 mx-2 py-2 contact-icon-net" />
                         </a>
                     </div>
                 </div>
             </Container>
-        </div>
+        </section>
     )
 }

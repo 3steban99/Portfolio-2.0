@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -55,18 +58,20 @@ p{
     font-size: 20px;
 }
 
-.navbar-link a:hover{
+
+
+.navbar .navbar-collapse .navbar-link .nav-link.active,
+.navbar .navbar-collapse .navbar-link .nav-link:hover {
     color: var(--color-skyblue);
 }
 
-
-.navbar .navbar-brand .btn-cv {
+.navbar .navbar-brand.btn-cv {
     background-color: var(--color-skyblue);
     color: var(--color-dark);
     font-size: 23px;
 }
 
-.navbar .navbar-brand .btn-cv:hover {
+.navbar .navbar-brand.btn-cv:hover {
     background-color: var(--color-skybluelight);
 }
 
@@ -234,6 +239,12 @@ p{
 
 .img-logo img{
     width: 100px;
+    transition: transform 0.5;
+    padding: 20px 0;
+}
+
+.img-logo img:hover{
+    transform: scale(1.05);
 }
 
 
@@ -268,7 +279,7 @@ p{
 }
 
 .contact{
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 .contact h2,

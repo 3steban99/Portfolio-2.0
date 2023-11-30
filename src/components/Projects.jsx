@@ -31,9 +31,9 @@ export const Projects = () => {
     };
 
     return (
-        <div className="container-main-projects" id="projects">
+        <section className="container-main-projects" id="projects">
             <Container>
-                <h2 className="text-center projects-h2">Proyectos</h2>
+                <h2 className="text-center projects-h2 fw-bold">Proyectos</h2>
                 <Row xs={1} md={2} className="mx-3">
                     {projects.map((project) => (
                         <Col md={5} key={project.id} className="mx-auto mb-5">
@@ -82,6 +82,6 @@ export const Projects = () => {
                     </>
                 )}
             </Modal>
-        </div>
+        </section>
     )
 }
