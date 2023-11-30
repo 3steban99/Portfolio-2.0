@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color-dark: #0B0C10;
+    --color-darkblue: #000B1C;
+    --color-whitelight: #C5C6C7;
+    --color-skyblue: #66FCF1;
+    --color-skybluelight: #45A29E;
+}
+
+.container h2,
+.about h2{
+    font-size: 40px;
+    border-bottom: 5px solid var(--color-skybluelight);
+    max-width: max-content;
+    margin: 3rem auto 6rem auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container h2,
+    .about h2{
+    font-size: 32px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+/* NAVBAR */
+.bg-nav{
+    background-color: var(--color-dark);
+}
+
+.custom-toggle{
+    color: var(--color-skyblue);
+}
+
+.navbar-toggler{
+    color: var(--color-skyblue) !important;
+    border: 2px solid var(--color-skyblue) !important;
+}
+
+
+.navbar-link a{
+    color: var(--color-whitelight);
+    font-size: 20px;
+}
+
+
+
+.navbar .navbar-collapse .navbar-link .nav-link.active,
+.navbar .navbar-collapse .navbar-link .nav-link:hover {
+    color: var(--color-skyblue);
+}
+
+.navbar .navbar-brand.btn-cv {
+    background-color: var(--color-skyblue);
+    color: var(--color-dark);
+    font-size: 23px;
+}
+
+.navbar .navbar-brand.btn-cv:hover {
+    background-color: var(--color-skybluelight);
+}
+
+
+
+
+/* HOME */
+.container-main-home{
+    height: 100vh;
+    background-image: url("./assets/fondo1.jpg");
+    background-size: cover;
+}
+
+
+.home-h1{
+    color: var(--color-skyblue);
+}
+
+.home-icon{
+    color: var(--color-skyblue);
+    cursor: pointer;
+}
+
+.home-icon:hover{
+    color: var(--color-skybluelight);
+}
+
+.home-container-img{
+    width: 32%;
+}
+
+/* ABOUT ME */
+
+.container-main-about{
+    background-color: var(--color-dark);
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+.about h2,
+.about h3{
+    color: var(--color-skybluelight);
+}
+
+.about p{
+    color: var(--color-whitelight);
+}
+
+.img-perfil{
+    border-radius: 50%;
+}
+
+.about-border{
+    border: 5px solid var(--color-skyblue);
+    border-radius: 10px;
+}
+
+
+/*PROJECTS*/
+
+.container-main-projects{
+    background-color: var(--color-darkblue);
+    padding: 60px 0;
+}
+
+.projects-h2{
+    color: var(--color-skybluelight);
+}
+
+.card-custom.card{
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid var(--color-skyblue);
+}
+
+.card-custom .card-img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-body{
+    background-color: var(--color-whitelight);
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+.custom-modal .modal-content {
+    border-radius: 20px;
+    border: none;
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+    border: none;
+}
+
+.modal-content .modal-header{
+    background-color: var(--color-dark);
+    color: var(--color-skyblue);
+    border: 1px solid var(--color-skybluelight);
+}
+
+.modal-header .btn-close{
+    background-color: var(--color-skyblue);
+}
+
+.modal-body{
+    background-color: var(--color-whitelight);
+    color: var(--color-dark);
+}
+
+.modal-content .modal-footer{
+    background-color: var(--color-dark);
+}
+
+.icon-modal{
+    color: var(--color-skyblue);
+    font-size: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.icon-modal:hover{
+    color: var(--color-skybluelight);
+}
+
+.modal-footer .btn-modal{
+    background-color: var(--color-skyblue);
+    color: var(--color-dark);
+    border: none;
+}
+
+.modal-footer .btn-modal:hover{
+    background-color: var(--color-skybluelight);
+    color: var(--color-dark);
+}
+
+/*SKILLS*/
+
+.container-main-skills{
+    background-color: var(--color-dark);
+    padding: 60px 0;
+}
+
+.skills h2,
+.skills p{
+    color: var(--color-skybluelight);
+}
+
+.skills h3{
+    color: var(--color-dark);
+}
+
+.skills-container{
+    border-radius: 50px;
+    border: 10px solid var(--color-skyblue);
+}
+
+
+.img-logo img{
+    width: 100px;
+    transition: transform 0.5;
+    padding: 20px 0;
+}
+
+.img-logo img:hover{
+    transform: scale(1.05);
+}
+
+
+
+/*CONTACT*/
+
+.container-main-contact{
+    background-color: var(--color-darkblue);
+    padding: 60px 0;
+    background-image: url("./assets/fondo2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-contact{
+    background-color: var(--color-dark);
+    border-radius: 20px;
+    width: 50%;
+    border: 2px solid var(--color-skyblue);
+}
+
+@media screen and (max-width: 768px) {
+    .bg-contact{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-contact{
+        width: 95%;
+    }
+}
+
+.contact{
+    min-height: 60vh;
+}
+
+.contact h2,
+.contact p{
+    color: var(--color-skybluelight);
+}
+
+.contact-icon{
+    color: var(--color-skybluelight);
+}
+
+.contact-icon-net{
+    color: var(--color-skybluelight);
+}
+
+.contact-icon-net:hover{
+    color: var(--color-skyblue);
+}
+
+
+/*FOOTER*/
+
+.container-footer{
+    color: var(--color-whitelight);
+    padding: 30px;
+}
+
+.container-footer a{
+    color: var(--color-whitelight);
+}
+
+.bg-footer{
+    background-color: var(--color-dark);
+}
+
+.icon-footer {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.icon-footer:hover{
+    color: var(--color-skyblue);
+}
