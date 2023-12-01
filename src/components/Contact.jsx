@@ -9,8 +9,8 @@ export const Contacto = () => {
     return (
         <section className="container-main-contact" id="contact">
             <Container className="contact">
-                <h2 className="text-center fw-bold">Contacto</h2>
-                <div className="mx-auto py-3 bg-contact">
+                <h2 className="text-center fw-bold" data-aos="fade-down">Contacto</h2>
+                <div className="mx-auto py-3 bg-contact" data-aos="fade-down">
                     <div className="d-flex justify-content-center align-items-center mb-2">
                         <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
                         <p className="mb-0 ms-2">barrionuevo99@outlook.com</p>

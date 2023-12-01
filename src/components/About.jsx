@@ -6,7 +6,7 @@ export const About = () => {
     return (
         <section id="about">
             <Container fluid className="container-main-about">
-                <div className="about">
+                <div className="about" data-aos="fade-down">
                     <h2 className="text-center mx-auto fw-bold">Sobre Mi</h2>
                     <div className="d-flex flex-column flex-xl-row w-75 mx-auto pt-5">
                         <div className="text-center">

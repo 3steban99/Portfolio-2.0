@@ -10,7 +10,7 @@ export const Home = () => {
         <section id="home">
             <Container fluid className="container-main-home d-flex align-items-center">
                 <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center mx-5 w-100">
-                    <div className="home-text">
+                    <div className="home-text" data-aos="fade-right" data-aos-duration="3000">
                         <div className="home-h1">
                             <h1>
                                 Hola, <br />
@@ -33,7 +33,7 @@ export const Home = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="home-container-img me-5 d-none d-lg-block">
+                    <div className="home-container-img me-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="3000">
                         <img src={imgAvatar} alt="" className="img-fluid home-img" />
                     </div>
                 </div>

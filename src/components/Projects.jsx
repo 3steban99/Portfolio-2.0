@@ -32,13 +32,13 @@ export const Projects = () => {
 
     return (
         <section className="container-main-projects" id="projects">
-            <Container>
+            <Container data-aos="fade-down">
                 <h2 className="text-center projects-h2 fw-bold">Proyectos</h2>
                 <Row xs={1} md={2} className="mx-3">
                     {projects.map((project) => (
                         <Col md={5} key={project.id} className="mx-auto mb-5">
                             <div onClick={() => handleOpenModal(project)}>
-                                <Card className="card-custom">
+                                <Card className="card-custom" data-aos="fade-down">
                                     <CardImg className="img-fluid" src={project.image} alt={project.title}/>
                                     <CardBody>
                                         <CardTitle className="text-center fs-3 py-4">

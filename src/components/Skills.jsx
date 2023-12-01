@@ -26,11 +26,13 @@ export const Skills = () => {
     return (
         <section className="container-main-skills" id="skills">
             <Container className="skills">
-                <h2 className="text-center fw-bold">Skills</h2>
-                <p className="text-center fs-3 pb-3 fw-bold">
-                    Mis lenguajes, frameworks, tecnologias y herramientas:
-                </p>
-                <div className="bg-light skills-container">
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h2 className="text-center fw-bold">Skills</h2>
+                    <p className="text-center fs-3 pb-3 fw-bold">
+                        Mis lenguajes, frameworks, tecnologias y herramientas:
+                    </p>
+                </div>
+                <div className="bg-light skills-container" data-aos="fade-down" data-aos-duration="2000">
                     <h3 className="text-center pt-5 fw-bold">Lenguajes</h3>
                     <div className="d-flex img-logo justify-content-around align-items-center flex-wrap py-3">
                         <img src={imgHTML} alt="logo de html" />
