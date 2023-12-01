@@ -100,7 +100,7 @@ p{
 .home-icon{
     color: var(--color-skyblue);
     cursor: pointer;
-    font-size: 28px;
+    font-size: 38px;
 }
 
 .home-icon:hover{
@@ -112,8 +112,7 @@ p{
 }
 
 @media screen and (max-width: 576px) {
-    .home-text h1,
-    .home-icon{
+    .home-text h1{
         font-size: 38px;
     }
 }

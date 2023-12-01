@@ -27,10 +27,10 @@ const projects = [
     {
         "id": 4,
         "title": "Portafolio",
-        "description": "prueba de description lajksdlakshdlajskhdkajhsdklsdhjbafkndbv jkhfdksaljdf",
-        "image": "https://i.ibb.co/sVpZ0NX/tuclub.webp",
-        "github": "",
-        "web": ""
+        "description": "Este es mi Proyecto de mi Portafolio, esta actualizado ya que antes solo estaba hecho con HTML y CSS. Ahora esta actualizado con React Vite y Bootstrap, en la cual tambien cambie un poco el diseño y agrega mas informacion y detalles a mi portafolio.",
+        "image": "https://i.ibb.co/9nRpXBS/portfolio.webp",
+        "github": "https://github.com/3steban99/Portfolio-2.0",
+        "web": "https://estebanbarrionuevo.vercel.app/"
     },
     {
         "id": 5,
