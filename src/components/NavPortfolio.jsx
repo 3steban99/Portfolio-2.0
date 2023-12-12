@@ -36,7 +36,7 @@ export const NavPortfolio = () => {
         <div>
             <Navbar expand="lg" className="bg-nav" fixed='top'>
                 <Container fluid className='py-3 mx-2 mx-lg-5'>
-                    <Navbar.Brand href="https://drive.google.com/file/d/1Zen_uCiCzWU_8eRI94lbqb3dbSHzvEfA/view?usp=drive_link" target="_blank" className='btn btn-cv fw-bold'>
+                    <Navbar.Brand href="https://drive.google.com/file/d/1ees_w_MYNdpGV75URg2QSUsb8OFl3WUH/view?usp=drive_link" target="_blank" className='btn btn-cv fw-bold'>
                         Ver CV
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
